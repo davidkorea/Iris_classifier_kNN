@@ -14,7 +14,7 @@
 ```php
 DATA_FILE = ''
 FEATURE_COL = ['mass','width','height','color_score']
-SPECIES_LABEL_DICT {
+SPECIES_LABEL_DICT = {
   'apple':0,
   'mandarin':1,
   'orange':2,
