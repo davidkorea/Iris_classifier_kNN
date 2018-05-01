@@ -10,7 +10,7 @@
  
 # 2. 코드요약
 
-0.preparation
+0. preparation
 ```php
 DATA_FILE = ''
 FEATURE_COL = ['mass','width','height','color_score']
