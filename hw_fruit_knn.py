@@ -26,5 +26,11 @@ def main():
     accuracy = knn_model.score(X_test, y_test)
     print('Accuracy: {:.2f}'.format(accuracy))
 
+    idx = 2
+    test_sample_feat = [X_test[idx,:]]
+    true_label = y_test[idx]
+    pred_label = knn_model.predict(test_sample_feat)
+    print('sample{}, true:{},predict:{}'.format(idx,true_label,pred_label))
+
 
 main()
