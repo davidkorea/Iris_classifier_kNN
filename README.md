@@ -38,6 +38,7 @@ y = fruit_data['Label'].values
 3. split train & test data
 ```php
 from sklearn.model_selection import
+
 X_train,X_test,y_train,y_test = train_test_split(X, y, test_size=1/5, random_state=20)
 ```
 4. declare kNN model & fit model & evaluate model
