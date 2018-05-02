@@ -54,7 +54,11 @@ def main():
 main()
 
 # Result:
-# K: 3 - Accuracy: 0.96
-# K: 5 - Accuracy: 0.96
-# K: 10 - Accuracy: 1.0
-# K: 15 - Accuracy: 0.96
+# K: 3 - Sepal - Accuracy: 0.66
+# K: 3 - Petal - Accuracy: 0.98
+# K: 5 - Sepal - Accuracy: 0.68
+# K: 5 - Petal - Accuracy: 0.98
+# K: 10 - Sepal - Accuracy: 0.78
+# K: 10 - Petal - Accuracy: 0.98
+# K: 15 - Sepal - Accuracy: 0.78
+# K: 15 - Petal - Accuracy: 0.98
