@@ -177,5 +177,9 @@ main()
 # K: 15 - Sepal - Accuracy: 0.78
 # K: 15 - Petal - Accuracy: 0.98
 # Petal plots as below
+# - background color is made by train data
+# - color dots are test data
 ```
+![](https://github.com/davidkorea/Iris_classifier_kNN/blob/master/images/sepal_results.png)
+
 ![](https://github.com/davidkorea/Iris_classifier_kNN/blob/master/images/petal_results.png)
