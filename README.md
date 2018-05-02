@@ -176,4 +176,6 @@ main()
 # K: 10 - Petal - Accuracy: 0.98
 # K: 15 - Sepal - Accuracy: 0.78
 # K: 15 - Petal - Accuracy: 0.98
+# Petal plots as below
 ```
+![](https://github.com/davidkorea/Iris_classifier_kNN/blob/master/images/petal_results.png)
