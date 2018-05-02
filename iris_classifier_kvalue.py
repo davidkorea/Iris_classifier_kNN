@@ -26,10 +26,14 @@ def main():
     iris_data = pd.read_csv(DATA_FILE)
     iris_data['Label'] = iris_data['Species'].map(SPECIES_LABEL_DICT)
 
-
     k_vals = [3,5,10,15]
     for k_val in k_vals:
         investigate(iris_data,k_val)
 
-
 main()
+
+# Result:
+# K: 3 - Accuracy: 0.96
+# K: 5 - Accuracy: 0.96
+# K: 10 - Accuracy: 1.0
+# K: 15 - Accuracy: 0.96
