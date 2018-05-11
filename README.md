@@ -61,7 +61,7 @@ print('Accuracy: {:.2f}'.format(accuracy))
 5. run by one sample
 ```php
 idx = 8
-test_sample_feat = [X_test,:]]
+test_sample_feat = [X_test[idx,:]]
 true_label = y_test[idx]
 pred_label = knn_model.predict(test_sample_feat)
 print('sample{}, true:{},predict:{}'.format(idx,true_label,pred_label))
